@@ -1,0 +1,6 @@
+Install Netbeans, Xampp, mysql DB, if possible mysql workbench.
+Create a folder with name Shopping under users>documents>netbeansProjects and clone the repo into it.
+Change connection details in dbconnect.php
+Populate the db using the tables attached.
+Run xampp and start apache
+Build and run the index.php file.
