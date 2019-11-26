@@ -2,7 +2,7 @@
  session_start();
  require_once 'Dbconnect.php';
  require 'Item.php';
- $res=mysql_query("SELECT * FROM shopping WHERE idshopping=".$_SESSION['user']);
+ $res=mysql_query("SELECT *  FROM shopping WHERE idshopping=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
  $customer=$userRow['userName'];
  

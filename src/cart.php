@@ -4,8 +4,8 @@
  require 'Item.php';
  $res=mysql_query("SELECT * FROM shopping WHERE idshopping=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
- 
- //echo $product->name; 
+  
+ // echo $product->name; 
      if(isset($_GET['idproducts'])&&!isset($_POST['update']))
      {   
            $result = mysql_query("select * from products where idproducts=".$_GET['idproducts']);

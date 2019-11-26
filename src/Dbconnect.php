@@ -6,7 +6,7 @@
  
  define('DBHOST', 'localhost');
  define('DBUSER', 'subash');
- define('DBPASS', 'Subash@11');
+ define('DBPASS', '******');
  define('DBNAME', 'friends');
  
  $conn = mysql_connect(DBHOST,DBUSER,DBPASS);

@@ -88,9 +88,6 @@ if( !isset($_SESSION['user']) ) {
           </tr> 
                      <?php } }?>
            <span style="font-family: 'Acid';color: yellowgreen;font-size: 240%; position: absolute;bottom:60px; left:40px;"><p><?php echo $msg;?></p></span>
-
-
-
 </table>
 </body>
 </html>

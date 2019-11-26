@@ -9,8 +9,7 @@
  $error = false;
 
  if ( isset($_POST['submit']) ) {
-  
-  // clean user inputs to prevent sql injections
+  //clean user inputs to prevent sql injections
   $name = trim($_POST['name']);
   $name = strip_tags($name);
   $name = htmlspecialchars($name);

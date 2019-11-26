@@ -8,7 +8,7 @@
   header("Location: index.php");
   exit;
  }
- // select loggedin users detail
+ //select loggedin users detail
  $res=mysql_query("SELECT * FROM shopping WHERE idshopping=".$_SESSION['user']);
  $userRow=mysql_fetch_array($res);
  

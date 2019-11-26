@@ -37,14 +37,14 @@ if( !isset($_SESSION['user']) ) {
          <td><?php echo $description ?></td>
         <tr>
     </table>
-                  <select size="1" name="type"  > 
-                  <option>5</option>
-                  <option>4</option>
-                  <option>3</option>
-                  <option>2</option>
-                  <option>1</option>
-                  <option>0</option>
-                  </select> 
-                  <input type="submit" name="submit" value="view by type">
+      <select size="1" name="type"  > 
+      <option>5</option>
+      <option>4</option>
+      <option>3</option>
+      <option>2</option>
+      <option>1</option>
+      <option>0</option>
+      </select> 
+      <input type="submit" name="submit" value="view by type">
  </body>
 </html>

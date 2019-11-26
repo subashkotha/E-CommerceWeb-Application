@@ -100,8 +100,6 @@ $errMSG='';
    <a href='index.php' style="color: sienna;text-decoration: none;font-size: 150%;position: absolute;top: 30px;right: 30px;font-family: 'Trubuchet MS'">Sign In</a>
      <span style="left: 70px;position:absolute;bottom: 70px;color: darkslateblue;font-family: 'Acid';font-size: 200% " ><?php echo $errMSG;?></span>
     
-
 </body>
-
 </html>
 

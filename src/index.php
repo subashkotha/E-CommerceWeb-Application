@@ -14,7 +14,7 @@
  
  if( isset($_POST['btn-login']) ) { 
   
-  // prevent sql injections/ clear user invalid inputs
+  //prevent sql injections/ clear user invalid inputs
   $email = trim($_POST['email']);
   $email = strip_tags($email);
   $email = htmlspecialchars($email);

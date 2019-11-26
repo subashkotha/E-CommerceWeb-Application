@@ -3,7 +3,7 @@
 require 'Dbconnect.php';
 session_start();
 $errMSG="";
-// Check if form submitted with method="post"
+//Check if form submitted with method="post"
 if ( isset($_POST['submit']) ) 
 {   
     $email = trim($_POST['email']);

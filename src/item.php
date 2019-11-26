@@ -1,5 +1,4 @@
 <?php
- 
 class Item{
 
   var $idproducts;
